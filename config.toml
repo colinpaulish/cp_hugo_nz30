@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://colinpaulish.github.io/cp_hugo_nz30/"
 languageCode = "en-US"
 title = "Colin Paulish"
 # Enable comments by entering your Disqus shortname
