@@ -21,9 +21,9 @@ theme = "hugo-sustain"
 
 [params.social]
   #Github        = "username"
-  Email         = "colinpaulish@example.com"
+  Email         = "colinpaulish@mail.com"
   #Twitter       = "username"
-  LinkedIn      = "https://www.linkedin.com/in/colin-paulish/"
+  LinkedIn      = "colin-paulish"
   #Stackoverflow = "username"
   #Medium        = "username"
   #Telegram      = "username"
