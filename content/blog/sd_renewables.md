@@ -8,18 +8,13 @@ description: "It doesn't take much poking around to find the lofty goal set by S
 tags: [data, visualization, local]
 ---
 
+![Futuristic City](https://colinpaulish.github.io/cp_hugo_nz30/img/renewable_city_small.png "futuristic city")
+
+
 ## Opening
 Cities will be crucial in leading innovation, policy change, and enacting ambitious legislation set force by policies such as the Inflation Reduction Act. In this article, I examine how San Diego has performed in adding renewable energy to the grid via solar highlighting pertinent trends and differences. Please play with [this Tableau dashboard](https://public.tableau.com/app/profile/colin.paulish) I put together to power this analysis drawing upon San Diego solar data and ACS community information.
 
-
-
-![Image Description](/img/renewable_city_small.png)
-
-![Image Description2](img/renewable_city_small.png)
-
-
-![Image Description3](https://colinpaulish.github.io/cp_hugo_nz30/img/renewable_city_small.png)
-
+![Tableau Dash](https://colinpaulish.github.io/cp_hugo_nz30/img/sd_tableau_dash.jpg "Tableau analysis")
 
 
 ## Context
