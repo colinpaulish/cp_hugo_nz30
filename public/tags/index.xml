@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Colin Paulish</title>
+    <link>https://colinpaulish.github.io/cp_hugo_nz30/tags/</link>
+    <description>Recent content in Tags on Colin Paulish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 20 Jun 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://colinpaulish.github.io/cp_hugo_nz30/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>data</title>
+      <link>https://colinpaulish.github.io/cp_hugo_nz30/tags/data/</link>
+      <pubDate>Tue, 20 Jun 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://colinpaulish.github.io/cp_hugo_nz30/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>local</title>
+      <link>https://colinpaulish.github.io/cp_hugo_nz30/tags/local/</link>
+      <pubDate>Tue, 20 Jun 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://colinpaulish.github.io/cp_hugo_nz30/tags/local/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visualization</title>
+      <link>https://colinpaulish.github.io/cp_hugo_nz30/tags/visualization/</link>
+      <pubDate>Tue, 20 Jun 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://colinpaulish.github.io/cp_hugo_nz30/tags/visualization/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

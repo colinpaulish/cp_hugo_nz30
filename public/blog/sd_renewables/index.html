@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Colin Paulish">
+    <link rel="shortcut icon" type="image/x-icon" href="https://colinpaulish.github.io/cp_hugo_nz30/img/favicon.ico">
+    <title>Local Context: San Diego and Solar | Colin Paulish</title>
+    <meta name="description" content="It doesn&#39;t take much poking around to find the lofty goal set by San Diego&#39;s Energy Department to &#39;...add additional renewable electricity supply to achieve 100 percent renewable electricity citywide.&#39; Unfortunately, talk is cheap and the energy transformation is not. In this analysis, I deep dive on publicly available data to understand progress and, most importantly, discuss can we learn from this case study. ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
+    <link rel="preload stylesheet" href="/cp_hugo_nz30/css/main.min.css" as="style">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old">
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+    <div id="content">
+  
+  <div class="container mb-3">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://colinpaulish.github.io/cp_hugo_nz30/">
+        <i class="fa fa-home"></i>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar">
+        <i class="fa fa-bars"></i>
+      </button>
+
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          
+            
+              <li class="nav-item">
+                <li><a class="nav-link" href="/cp_hugo_nz30/blog/">BLOG</a></li>
+              </li>
+            
+              <li class="nav-item">
+                <li><a class="nav-link" href="/cp_hugo_nz30/resume/">RESUME</a></li>
+              </li>
+            
+              <li class="nav-item">
+                <li><a class="nav-link" href=""></a></li>
+              </li>
+            
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="container">
+    <h3 class="mt-3"><b><a href="https://colinpaulish.github.io/cp_hugo_nz30/blog/sd_renewables/">Local Context: San Diego and Solar</a></b></h3>
+    <div class="blog-title my-4">
+      <h6>
+        June 20, 2023
+        &nbsp;&nbsp;
+        
+          <span class="badge bg-success">data</span>
+        
+          <span class="badge bg-success">visualization</span>
+        
+          <span class="badge bg-success">local</span>
+        
+      </h6>
+    </div>
+    <div class="panel">
+      <div class="panel-body">
+        <div class="blogpost">
+          <h2 id="opening">Opening</h2>
+<p>Cities will be crucial in leading innovation, policy change, and enacting ambitious legislation set force by policies such as the Inflation Reduction Act. In this article, I examine how San Diego has performed in adding renewable energy to the grid via solar highlighting pertinent trends and differences. Please play with <a href="https://public.tableau.com/app/profile/colin.paulish">this Tableau dashboard</a> I put together to power this analysis drawing upon San Diego solar data and ACS community information.</p>
+<p><img src="img/renewable_city_small.png" alt="Image Description"></p>
+<h2 id="context">Context</h2>
+<p>On June 1st, 2017, Trump formally withdrew the United States from the Paris Climate Agreement. Hours later, three governors from California, Washington, and New York countered forming the U.S. Climate Alliance, a coalition centered around reducing collective net GHG through policy. Today, 25 governors have joined.</p>
+<p>Now, more than halfway through Biden’s first term presidency, the Federal government&rsquo;s position on climate change is drastically different. So far, Biden has passed a trio of bills referred to as Uncles Bill, Chip and Ira (Infrastructure Investment &amp; Jobs, CHIPS, Inflation Reduction Act respectively), the latter alone the biggest investment in mitigating climate change in this nation’s history. With huge funding already appropriated towards climate change and a split Congress, it is unlikely any new, large Federal funding will pass in the near-term.  Whereas it was on the states to lead the way on policy under Trump’s cloudy climate skies, it is now on them to lead the charge on implementing many of the incentives to reach its goal of reducing critical emissions between 31 and 44 percent of 2005 levels. As the seasoned climate reporter David Roberts astutely asks, are they ready?</p>
+<p>That brings us to our cities which serve in unique and powerful positions. The International Energy Agency estimates that urban areas are responsible for 71% of energy related carbon emissions. More and more people are moving to urban areas, a trend that is expected to continue. Thankfully, many cities are using this power for good by leading innovation on climate change. As of 2021, 58 of the 100 largest US cities had an approved climate action plan (1). Here in the States, cities are on track to reduce emissions by 32% below 2005 levels by 2025, ahead of goals set out by the Paris Climate Agreement. Take a look at how the biggest city, NYC, is tracking and providing transparency towards thief goals with their climate dashboard here.</p>
+<p>In terms of what’s on their minds, In a recent meta-analysis conducted by the National League of Cities (NLC) on fifty recent city plans, five themes stood out (2):</p>
+<ol>
+<li>Boosting energy efficient buildings</li>
+<li>Investing in EV infrastructure</li>
+<li>Optimizing Waste Operations</li>
+<li>Improving Access to public Transportation</li>
+<li>Investing in Renewable Energy</li>
+</ol>
+<p>In this project, I am focusing on the fifth theme, driving renewable energy. Beyond an interest, as our energy system moves towards electrifying (almost) everything, more and more clean energy will be demanded. A huge source of that, per Princeton’s futuristic Net-Zero America report is solar’s 2-5x increase to today’s totals (source). To understand progress, I deep dove on  the city I live in, San Diego. In particular, I looked at geographic and temporal trends to uncover what we know, what capacity may look like in the future and what this means for other cities across the US.</p>
+<h2 id="data-sources">Data Sources</h2>
+<p>To conduct this analysis, I utilized three data sets:</p>
+<ol>
+<li>Renewable energy data from California Distributed Generation Statistics which can be found here includes solar projects from 1982 to present. This data is at the project level.</li>
+<li>Zip code data from Census compiled into a nifty package, zipcodeR where I pulled important metrics such as household income and used a census tract to zip code mapping table created as part of this package.</li>
+<li>Census ACS API where I utilized data from its 2021 survey where I pulled data at the Census Tract level and then rolled up to the zip code level to get many zip code specific proportions such as percent renter</li>
+</ol>
+<p>Both zip code data sets were joined to the project level data.</p>
+<h2 id="themes-and-takeaways">Themes and Takeaways</h2>
+<p>Through the Tableau dashboard built and some basic statistical analysis, there are three themes that emerged with important policy considerations. All of these analyses are extremely surface-level and would require more digging (and time) – however, I still believe they are worth calling out as topics to further explore.</p>
+<h4 id="there-are-significant-differences-in-projects-by-community-lower-income-areas-are-installing-solar-at-a-significantly-different-rate-renting-as-factor-here-despite-falling-behind-solar-has-picked-up-in-lower-income-areas">There are significant differences in projects by community. Lower income areas are installing solar at a significantly different rate (renting as factor here). Despite falling behind, solar has picked up in lower income areas.</h4>
+<p><code>What the data says</code>: Descriptively, the trend is clear. The four most affluent zip codes have the highest solar installation rate with the inverse true for less affluent areas. Statistically, if you plot household income by projects per household, a linear explainer captures 68% of the variation with a significant p-value. There are likely many factors contributing to this divide. For example, lower income communities are more likely to rent than own with utility bills paid by the renter. This creates a misaligned incentive structure where the benefits of the upfront cost do not flow back to the investor. Another interesting observation is that cost per watt of energy is higher in low income areas which are the communities who can least afford it.</p>
+<p><code>Why this matters</code>: Low income consumers pay a much higher proportion of their income on energy. A recent report from the American Council for an Energy-Efficient Economy (AMCEE) found that one-fourth of all U.S. households have a high energy burden meaning they spend &gt;6% of their income on utility bills. That number jumps to two-thirds when looking at just low-income households. Those burdens are not spread evenly through society as black and hispanic households have an energy burden that is 43% and 20% higher than white households respectively (source).</p>
+<p><code>What we can do about it</code>: Generally, programs and policies need to be flexible, tailored, and cost effective for local residents. To be empowered, both sides of the equation - risk and benefit can be tinkered with from a variety of policies. Below are three core solution groupings the US Department of Energy outlines with just a couple of examples from an array provided (source).</p>
+<ol>
+<li>Compensation mechanisms - the implementation of net metering allowing customers to financially benefit when they are producing excess energy from their solar panels and/or community solar where benefits of usually an offsite solar project flows to multiple customers</li>
+<li>Direct Incentives - providing tax credits and rebates with additional benefits for low income households</li>
+<li>Financing and incentives - generally attempting to lower the risk for lender and cost of financing such as on-bill repayment where the repayment cost is offset by the benefit of the solar generation or programs that provide a safety net for banks such as loan guarantees to lower the financing risk for both the purchaser and bank.</li>
+</ol>
+<h4 id="after-growth-stalls-in-key-metrics-cost-per-watt-capacity-per-project-number-of-projects-application-processing">After growth, stalls in key metrics: cost per watt, capacity per project, number of projects, application processing</h4>
+<p><code>What the data says</code>: In an ideal world, modular solar residential would continue to improve creating a positive feedback loop. Lower prices would drive demand, whose projects would be approved faster (reducing risk of a change of heart), and those projects would produce more solar capacity. Unfortunately, this does not appear to be the case. Over the long-run, most of these metrics have come down but have stagnated over the last 5-10 years. Capacity and cost has fluctuated with highest efficiencies in 2021 while the application process has halved over the last decade, there has been little change over the last five years. .</p>
+<p><code>Why this matters</code>: Generating clean energy from your home has never been easier (or more prominent). That said, we need all of the energy we can get and a lot more of it. A byproduct of improving efficiency and lowering costs is the reduction of both logistic and cost-related barriers which, in turn, should drive more to make the jump to solar.</p>
+<p><code>What we can do about it</code>: Thankfully, policy can be (and is) very helpful here. Incentives primarily through the IRA passes on tax credits that reduce the final bill for consumers. A recent Swedish study found subsidies and peer effects are significant factors increasing likelihood to adopt (source).</p>
+<h4 id="commercial-projects-lag-behind-residential-and-have-fallen-quickly-237-in-2016-40-in-2022">Commercial projects lag behind residential and have fallen quickly (237 in 2016, 40 in 2022)</h4>
+<p><code>What the data says</code>: Investment in solar in the commercial lags significantly behind residential and has followed a very different trajectory. Peaking in 2016, prjects have fallen 83% to just 40 in the most recent year. This trend persists despite a lower average cost per watt of energy. This caught my eye as, in theory, businesses would have the greatest incentive to invest in cheap energy given a higher footprint per square foot, profit maximizing incentives, and often longer timelines.</p>
+<p><code>Why this matters</code>: In 2021, San Diego had 90,000 businesses. Despite many unlikely to have a storefront, businesses represent a large physical and carbon footprint. Reducing emissions in this sector, often concentrated in dense, urban areas will also improve air quality.</p>
+<p><code>What we can do about it</code>: Not surprisingly, the most effective policies are financially driven via incentives primarily deployed in the form of tax benefits. This includes a federal investment tax credit (ITC) which provides a credit at 26% of the value of the of the project available to both consumers and businesses. Modified Accelerated Cost Recovery System (MACRS) however is available to only businesses which allows businesses to lower their taxable earnings based on the depreciation level of your solar asset. Beyond tax incentives, solar performance based incentives is another creative category where a state or utility will offer an incentive rate for each kilowatt-hour of solar produced (source).</p>
+<p><img src="img/renewable_city_super_small.png" alt="test4"></p>
+
+          
+          
+        </div>
+      </div>
+      <div class="disqus">
+        
+      </div>
+    </div>
+  </div>
+
+    </div>
+    
+    <footer class="footer">
+  <div class="container">
+    <div class="text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
+    <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> with ♥</div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+  </body>
+</html>

@@ -7,6 +7,9 @@ disqusShortname = ""
 googleAnalytics = ""
 theme = "hugo-sustain"
 
+staticDir = "static"
+
+
 [permalinks]
   post = "/:year/:month/:day/:slug"
 
@@ -16,8 +19,8 @@ theme = "hugo-sustain"
   description = "Place to mix two passions: sustainability and data analysis."
 
   # Custom assets can be linked with their paths relative to static/
-  custom_css = []
-  custom_js  = []
+  #custom_css = []
+  #custom_js  = []
 
 [params.social]
   #Github        = "username"

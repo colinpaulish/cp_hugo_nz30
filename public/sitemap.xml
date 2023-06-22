@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://colinpaulish.github.io/cp_hugo_nz30/</loc>
+    <lastmod>2023-06-20T02:01:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://colinpaulish.github.io/cp_hugo_nz30/blog/</loc>
+    <lastmod>2023-06-20T02:01:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://colinpaulish.github.io/cp_hugo_nz30/tags/data/</loc>
+    <lastmod>2023-06-20T02:01:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://colinpaulish.github.io/cp_hugo_nz30/tags/local/</loc>
+    <lastmod>2023-06-20T02:01:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://colinpaulish.github.io/cp_hugo_nz30/blog/sd_renewables/</loc>
+    <lastmod>2023-06-20T02:01:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://colinpaulish.github.io/cp_hugo_nz30/tags/</loc>
+    <lastmod>2023-06-20T02:01:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://colinpaulish.github.io/cp_hugo_nz30/tags/visualization/</loc>
+    <lastmod>2023-06-20T02:01:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://colinpaulish.github.io/cp_hugo_nz30/categories/</loc>
+  </url>
+  
+</urlset>
