@@ -18,6 +18,9 @@ Cities will be crucial in leading innovation, policy change, and enacting ambiti
 ![Image Description2](img/renewable_city_small.png)
 
 
+![Image Description3](https://colinpaulish.github.io/cp_hugo_nz30/img/renewable_city_small.png)
+
+
 
 ## Context
 On June 1st, 2017, Trump formally withdrew the United States from the Paris Climate Agreement. Hours later, three governors from California, Washington, and New York countered forming the U.S. Climate Alliance, a coalition centered around reducing collective net GHG through policy. Today, 25 governors have joined.
