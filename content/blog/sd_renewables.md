@@ -73,5 +73,3 @@ Through the Tableau dashboard built and some basic statistical analysis, there a
 `Why this matters`: In 2021, San Diego had 90,000 businesses. Despite many unlikely to have a storefront, businesses represent a large physical and carbon footprint. Reducing emissions in this sector, often concentrated in dense, urban areas will also improve air quality.
 
 `What we can do about it`: Not surprisingly, the most effective policies are financially driven via incentives primarily deployed in the form of tax benefits. This includes a federal investment tax credit (ITC) which provides a credit at 26% of the value of the of the project available to both consumers and businesses. Modified Accelerated Cost Recovery System (MACRS) however is available to only businesses which allows businesses to lower their taxable earnings based on the depreciation level of your solar asset. Beyond tax incentives, solar performance based incentives is another creative category where a state or utility will offer an incentive rate for each kilowatt-hour of solar produced (source).
-
-![test4](img/renewable_city_super_small.png)
