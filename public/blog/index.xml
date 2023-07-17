@@ -16,5 +16,14 @@
       <description>Opening Cities will be crucial in leading innovation, policy change, and enacting ambitious legislation set force by policies such as the Inflation Reduction Act. In this article, I examine how San Diego has performed in adding renewable energy to the grid via solar highlighting pertinent trends and differences. Please play with this Tableau dashboard I put together to power this analysis drawing upon San Diego solar data and ACS community information.</description>
     </item>
     
+    <item>
+      <title>The Energy Transition and Jobs</title>
+      <link>https://colinpaulish.github.io/cp_hugo_nz30/blog/jobs/</link>
+      <pubDate>Tue, 20 Jun 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://colinpaulish.github.io/cp_hugo_nz30/blog/jobs/</guid>
+      <description>Opening It’s hard to fault policymakers and local leaders in fossil-fuel heavy regions for their pushback towards green legislation and general progress. Shifts in status quo are scary, particularly when the writing on the wall is in sharpie - renewable jobs are coming, and they will negatively impact fossil fuel employment. Industrial shifts can and have brought huge pain to governments, local economies, families, and people. From 1950 to 2000, the “Rust Belt’s” share of US manufacturing employment fell from one-half to one-third with similar magnitude drops when taking a step back calculating aggregate-level employment (source).</description>
+    </item>
+    
   </channel>
 </rss>
