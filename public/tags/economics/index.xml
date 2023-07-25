@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Colin Paulish</title>
-    <link>https://colinpaulish.github.io/cp_hugo_nz30/</link>
-    <description>Recent content on Colin Paulish</description>
+    <title>economics on Colin Paulish</title>
+    <link>https://colinpaulish.github.io/cp_hugo_nz30/tags/economics/</link>
+    <description>Recent content in economics on Colin Paulish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 25 Jul 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://colinpaulish.github.io/cp_hugo_nz30/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jul 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://colinpaulish.github.io/cp_hugo_nz30/tags/economics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Energy Transition and Jobs</title>
       <link>https://colinpaulish.github.io/cp_hugo_nz30/blog/jobs/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://colinpaulish.github.io/cp_hugo_nz30/blog/jobs/</guid>
       <description>Opening It’s hard to fault policymakers and local leaders in fossil-fuel heavy regions for their pushback towards green legislation and general progress. Shifts in status quo are scary, particularly when the writing on the wall is in sharpie - renewable jobs are coming, and they will negatively impact fossil fuel employment. Industrial shifts can and have brought huge pain to governments, local economies, families, and people. From 1950 to 2000, the “Rust Belt’s” share of US manufacturing employment fell from one-half to one-third with similar magnitude drops when taking a step back calculating aggregate-level employment (source).</description>
-    </item>
-    
-    <item>
-      <title>Local Context: San Diego and Solar</title>
-      <link>https://colinpaulish.github.io/cp_hugo_nz30/blog/sd_renewables/</link>
-      <pubDate>Tue, 20 Jun 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://colinpaulish.github.io/cp_hugo_nz30/blog/sd_renewables/</guid>
-      <description>Opening Cities will be crucial in leading innovation, policy change, and enacting ambitious legislation set force by policies such as the Inflation Reduction Act. In this article, I examine how San Diego has performed in adding renewable energy to the grid via solar highlighting pertinent trends and differences. Please play with this Tableau dashboard I put together to power this analysis drawing upon San Diego solar data and ACS community information.</description>
     </item>
     
   </channel>
