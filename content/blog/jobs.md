@@ -11,6 +11,15 @@ tags: [analytics, economics, jobs]
 ![Solar Maintenance](https://colinpaulish.github.io/cp_hugo_nz30/img/solar_fixing_small.png "worker afixing solar panel")
 
 
+<div style="display: flex; justify-content: space-between;">
+    <div style="flex: 1; padding: 10px;">
+        <img src="https://colinpaulish.github.io/cp_hugo_nz30/img/oil_rig_small.png" alt="First Image" style="max-width: 100%; height: auto;">
+    </div>
+    <div style="flex: 1; padding: 10px;">
+        <img src="https://colinpaulish.github.io/cp_hugo_nz30/img/solar_fixing_small.png" alt="Second Image" style="max-width: 100%; height: auto;">
+    </div>
+</div>
+
 ## Opening
 It’s hard to fault policymakers and local leaders in fossil-fuel heavy regions for their pushback towards green legislation and general progress. Shifts in status quo are scary, particularly when the writing on the wall is in sharpie - renewable jobs are coming, and they will negatively impact fossil fuel employment. Industrial shifts can and have brought huge pain to governments, local economies, families, and people. From 1950 to 2000, the “Rust Belt’s” share of US manufacturing employment fell from one-half to one-third with similar magnitude drops when taking a step back calculating aggregate-level employment (source). If certain regions are upended with widespread turmoil during this shift to renewable energy, then we have failed. Instead of fighting policy change, policy leader conversations should shift to productive discussions that focus on the symbiotic potential of green jobs to the area. Two things can be true – we can see huge losses in fossil fuel jobs and see those same areas thrive.
 
