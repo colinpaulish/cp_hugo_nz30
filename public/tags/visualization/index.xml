@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>visualization on Colin Paulish</title>
-    <link>https://colinpaulish.github.io/cp_hugo_nz30/tags/visualization/</link>
+    <link>https://colinpaulish.com/tags/visualization/</link>
     <description>Recent content in visualization on Colin Paulish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 20 Jun 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://colinpaulish.github.io/cp_hugo_nz30/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Jun 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://colinpaulish.com/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Local Context: San Diego and Solar</title>
-      <link>https://colinpaulish.github.io/cp_hugo_nz30/blog/sd_renewables/</link>
+      <link>https://colinpaulish.com/blog/sd_renewables/</link>
       <pubDate>Tue, 20 Jun 2023 02:01:58 +0530</pubDate>
       
-      <guid>https://colinpaulish.github.io/cp_hugo_nz30/blog/sd_renewables/</guid>
+      <guid>https://colinpaulish.com/blog/sd_renewables/</guid>
       <description>Opening Cities will be crucial in leading innovation, policy change, and enacting ambitious legislation set force by policies such as the Inflation Reduction Act. In this article, I examine how San Diego has performed in adding renewable energy to the grid via solar highlighting pertinent trends and differences. Please play with this Tableau dashboard I put together to power this analysis drawing upon San Diego solar data and ACS community information.</description>
     </item>
     
