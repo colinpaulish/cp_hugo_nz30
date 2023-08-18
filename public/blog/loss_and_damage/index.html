@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Colin Paulish">
+    <link rel="shortcut icon" type="image/x-icon" href="https://colinpaulish.comimg/favicon.ico">
+    <title>Loss &amp; Damage Fund | Colin Paulish</title>
+    <meta name="description" content="--">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
+    <link rel="preload stylesheet" href="/css/main.min.css" as="style">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old">
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+    <div id="content">
+  
+  <div class="container mb-3">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://colinpaulish.com">
+        <i class="fa fa-home"></i>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar">
+        <i class="fa fa-bars"></i>
+      </button>
+
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          
+            
+              <li class="nav-item">
+                <li><a class="nav-link" href="/blog/">BLOG</a></li>
+              </li>
+            
+              <li class="nav-item">
+                <li><a class="nav-link" href="/resume/">RESUME</a></li>
+              </li>
+            
+              <li class="nav-item">
+                <li><a class="nav-link" href=""></a></li>
+              </li>
+            
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="container">
+    <h3 class="mt-3"><b><a href="https://colinpaulish.com/blog/loss_and_damage/">Loss &amp; Damage Fund</a></b></h3>
+    <div class="blog-title my-4">
+      <h6>
+        August 18, 2023
+        &nbsp;&nbsp;
+        
+          <span class="badge bg-success">analytics</span>
+        
+          <span class="badge bg-success">economics</span>
+        
+          <span class="badge bg-success">equity</span>
+        
+      </h6>
+    </div>
+    <div class="panel">
+      <div class="panel-body">
+        <div class="blogpost">
+          <p><img src="https://colinpaulish.github.io/cp_hugo_nz30/img/loss_and_damage.png" alt="Future Energy" title="negotiating for equity"></p>
+<h2 id="overview">Overview</h2>
+<p>General consensus coming out of COP27 was disappointment. Commitments once again exceeded action and many climate enthusiasts left with more questions than answers. An exciting development that did come out of COP27 was the agreement of a ‘Loss and Damage’ fund. In principle, this agreement formalizes mostly rich countries' acknowledgement that there is a need for financial assistance to developing nations facing the brunt of the effects of climate change. As with the rest of the conference, fundamental operational questions were left unanswered such as – who pays who, through what finance vehicle, at what amount over what time period?</p>
+<p>The lack of clarity scares me – until there are answers, progress will be slow and any progress that is made will almost assuredly be at  a smaller scale than needed. It is a messy and complicated topic with no right answers to the questions above - factors that drew me to this topic.  In this particular post, I will attempt to put in place a beginning funding “formula” using public data. Before doing so, I’ll explain why this is so important and conclude by scratching the surface of considerations that extend beyond the flow of financing.</p>
+<h2 id="motivation">Motivation</h2>
+<p>The reason this fund is so important is both simple and alarming:</p>
+<ul>
+<li>Cumulative CO2 and its equivalent emissions are incredibly lopsided with the EU, USA, and China representing ~60% of global cumulative emissions. Comparatively, South America and Africa represent just 6% of the total <a href="https://ourworldindata.org/contributed-most-global-co2">source</a></li>
+</ul>
+<p><img src="https://colinpaulish.github.io/cp_hugo_nz30/img/cumulative_co2.png" alt="Cumulative CO2" title="emissions by country"></p>
+<ul>
+<li>The effects of global warming are also not distributed equally. Generally, places near the equator are more at risk which tend to skew less developed and more vulnerable
+<img src="https://colinpaulish.github.io/cp_hugo_nz30/img/inform_risk.png" alt="Cumulative CO2" title="risk score"></li>
+</ul>
+<p>Each of these on their own is powerful. Taken together, it screams unfairness. Generally, the countries and communities who have done the least to raise our global temperature (and dirty our air) are bearing the biggest costs.  The numbers are hard to contextualize. Just before COP27, a group of 55 developing countries added up their climate linked losses and valued it at $525 or 20% of their collective GDP <a href="https://climatedata.imf.org/datasets/7cae02f84ed547fbbd6210d90da19879_0/about">source</a>. Unfortunately, we are entering a new “normal” – one that will have more catastrophic events at increasing scale. Until we are carbon negative, tomorrow will have more carbon than today.</p>
+<h2 id="the-analysis">The Analysis</h2>
+<h4 id="goals">Goals</h4>
+<p>Put simply, this is a first attempt to put some rigor and systems around funding. This serves a starting point – for the inputs, data sources, designations, formulas, etc. As with my other posts, I have simplified the “equation” while trying to keep the nature of the agreement and the moral side intact. Countries that have contributed and are more financially secure should pay more. Countries that are bearing more of the costs should receive more.</p>
+<p>As mentioned above, I have also developed an R Shiny tool to play around with some of the inputs that you can find here.</p>
+<h4 id="who-is-paying-vs-who-is-receiving">Who is paying vs who is receiving?</h4>
+<p>A common theme, it is not clear who will be funding vs paying. The deal says the fund will assist, “developing countries that are particularly vulnerable to the adverse effects of climate change.” Defining the funders was impressively even more vague mentioning developed countries and “other private and public sources.”</p>
+<p>The World Economic Situation Prospects (WESP) categorizes countries into three broad categories: developed economies, economies in transition, and developing economies (source).  The UN categorizes the Least Developed Countries, of which there are currently 46 (source). Plenty of other categorizations could similarly be used - such as an economies per capita gross national income (GNI). Put simply there is no “right” way to completely fairly categorize who should fund and who should receive.</p>
+<p>For our analysis, we will utilize the IMFs Fiscal Monitor categorization which breaks countries into three categories: advanced economics, emerging market, and low-income developing. This system is far from perfect, biased towards fiscal data and away from other barriers that determine a country&rsquo;s need and effectiveness of climate funding such as political stability. Countries in the low-income developing  group are designed to receive a larger share of funding than the formula outlined below spits out  (thereby reducing non-LDC developing countries share). This is an adjustable input a user can scenario plan with.</p>
+<h4 id="what-determines-a-countrys-share-of-payment">What determines a country&rsquo;s share of payment?</h4>
+<p>The goal of the payment side is to capture contribution, economic ability, and intent. To do this, payment share is determined based on three primary factors:</p>
+<ul>
+<li><strong>Share of the global warming problem</strong>; metric: <em>cumulative emissions</em>: as the saying goes - you do the crime, you do the time. Countries who have historically emitted more, should (financially) suffer the consequences for their actions. They were the beneficiaries of industrial scaling and therefore should compensate for that benefit.</li>
+<li><strong>Financial muscle/ability to pay</strong>; metric: <em>GDP per person x GDP</em>. By incorporating both GDP and GDP per person, the goal is to balance pure output with efficiency. Generally, the richer a country is, the easier it will be to compensate for their emissions. They will have an easier time borrowing and that financial outlay will represent a less per-person share. A bigger country should also contribute more.
+<ul>
+<li>GDP * per capita multiplier (at a range of 0.5 - 1.5)</li>
+<li>GDP multiplier is the countries GDP per capita divided by the median country GDP per capita</li>
+</ul>
+</li>
+<li><strong>Willingness to change</strong>; metric: <em>renewable generation per person</em>. This is admittedly the most “out there” component of my equation. Beyond a countries willingness to be renewable there are other factors such as availability of natural occurring energy sources (e.g., geothermal). That aside, I still believed it to be valuable to reward and incentivize countries who have recognized the need to overhaul their energy sector to a higher share of renewables.</li>
+</ul>
+<h4 id="what-determines-a-countrys-share-of-receiving">What determines a country&rsquo;s share of receiving?</h4>
+<p>Almost the opposite to payment, the reception of funds intends to encapsulate what countries need the funds the most. This is based on readiness, vulnerability, and their own economic ability to recover.</p>
+<ul>
+<li>Vulnerability - a composite score of ND  and IMF</li>
+<li>Readiness / Capacity -</li>
+<li>Impact projections -</li>
+<li>Fnancial Muscle - see above, a country&rsquo;s economic ability to mitigate and adapt to climate change</li>
+</ul>
+<h4 id="what-should-the-total-amount-be">What should the total amount be?</h4>
+<p>Unsurprisingly, the range from scholars, developing countries, and developed countries range quite a bit. When considering the amount, there are several factors that should be considered to arrive at the final number. FIrst, the amount should at least consider damages likely driven by climate change now that we know wealthy nations bear the overwhelming responsibility. Then, we should talk about progress both in the forms of adaptation (e.g., new levee) and mitigation (cheap, clean energy). Unfortunately, all three categories are mere estimates which leaves plenty of room for debate. Researchers estimate the economic costs of loss and damage in developing nations to be $290B to $580B and rising (source). A report by the Independent High-Level Expert Group on Climate Finance argues that at least 1 trillion USD is needed per year to support developing countries. A far cry form from the $100B commitment made at recent COPs that have already been delinquent.</p>
+<p>For the tool, the total amount will start at  $500B - an amount significantly higher than previous commitments but likely still (at least) half of what is needed. This amount is adjustable by the user.</p>
+<h2 id="the-analysis-1">The Analysis</h2>
+<p>[empty right now]</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Going through this thought and data exercise exposed the complexity of the loss and damages fund. It is a problem ripe with sticky definitions, future unknowns, and a myriad of political &amp; financial (dis)incentives all lending itself to debate rather than commitment. Likely, with many climate endeavors, the initial wave of commitments will be underwhelming. A “better than nothing” attitude will almost assuredly be needed in the short-term until a more robust program is established.</p>
+<p>Let’s assume a fund and contribution amount is established with respective country contribution and allocation amounts set. What next - what should considerations be for operationalizing it? Sources Beyond the funding, how will future decisions be made? How will plans get approved and countries then held accountable for their commitments? Who will monitor the allocation funds and what should penalties look like?</p>
+<p><strong>Funding Sources</strong>
+Diversify as much as possible beyond public finance through philanthropic funds and private funds
+Use tools such as taxes to raise money for the fund in a clear, definable way
+Determine if countries should be split into receivers/contributors or the fund should be thought of a shared investment with a more flexible structure</p>
+<p><strong>Governance</strong>
+Who should get a seat on the fund and how should decisions be made?
+Pushing policy through: consensus may be unrealistic for many decisions, and voting could slow down movement
+Members: individual countries vs an  independent board be established
+Key elements that should be front in center across each aspect: anti-corruption, transparency, inclusive, and accountability. Need to avoid the politicization</p>
+<p><strong>Accessibility</strong>
+Minimize the accreditation requirements for developing countries to access the funds
+Consider project based accreditation for faster approval, trigger-based systems for immediate concerns, minimum allocations
+Ensure grants are set aside specifically for local, vulnerable communities</p>
+<p><strong>Financing Instruments</strong>
+Grants are more valuable than loans since they do not compound debt and offer more flexibility for the recipient
+Build capacity and catalyze future investment with more certainty through a more programmatic approach to finance. More can be done with a 5 year commitment then a series of checks implying uncertainty</p>
+<p><strong>Distribution / Beneficiaries</strong>
+Flexible caps so all countries have access to funding
+Assess and define what it means to be vulnerable
+Prioritize marginalized groups</p>
+<p><strong>Reporting &amp; Accountability</strong>
+Balancing accountability with putting too much red tape around reporting for developing countries. Minimize the onus on developing countries by either providing support for reporting or training
+Set strict rules with misappropriation evaluated by an organization like the World Bank with power to blacklist
+Measure impact, share successes (and failures)</p>
+<h4 id="inspired---take-this-to-the-next-level">Inspired - take this to the next level?</h4>
+<p>Due to personal time constraints, I explored more of the system and general methodology and less of the “data science” side. If this analysis was of interest and you wanted to take it to the next level, a key piece will be how to update funding into the future. Developing models to predict what those key inputs (e.g., emissions) may look into the future can help countries earmark funding and be proactive. As stated earlier, this model is incredibly simple beyond the descriptive nature so being creative with other inputs to continue to drive equity is another way to bolster this analysis.</p>
+<p>As for me, I will continue to monitor the evolution of this fund. Not only is it imperative to reduce emissions but it is simply the right thing to do.</p>
+
+          
+          
+            <div class="related-posts mt-4 py-3">
+              <h5>Related Posts</h5>
+              
+                <div class="row">
+                  <div class="col-4">
+                    <h6 style="text-align: right">
+                      July 25, 2023
+                    </h6>
+                  </div>
+                  <div class="col-8">
+                    <h6 style="text-align: left">
+                      <b><a href="/blog/jobs/">The Energy Transition and Jobs</a></b>
+                    </h6>
+                  </div>
+                </div>
+              
+            </div>
+          
+        </div>
+      </div>
+      <div class="disqus">
+        
+      </div>
+    </div>
+  </div>
+
+    </div>
+    
+    <footer class="footer">
+  <div class="container">
+    <div class="text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
+    <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> with ♥</div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+  </body>
+</html>
