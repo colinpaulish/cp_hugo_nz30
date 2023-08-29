@@ -11,19 +11,17 @@ tags: [analytics, economics, equity]
 
 
 ## Overview
-General consensus coming out of COP27 was disappointment. Commitments once again exceeded action and many climate enthusiasts left with more questions than answers. An exciting development that did come out of COP27 was the agreement of a ‘Loss and Damage’ fund. In principle, this agreement formalizes mostly rich countries' acknowledgement that there is a need for financial assistance to developing nations facing the brunt of the effects of climate change. As with the rest of the conference, fundamental operational questions were left unanswered such as – who pays who, through what finance vehicle, at what amount over what time period?
+General consensus coming out of COP27 was disappointment. Commitments once again exceeded action and many climate enthusiasts left with more questions than answers. An exciting development that did come out of COP27 was the agreement of a ‘Loss and Damage’ fund. In principle, this agreement formalizes mostly rich countries' acknowledgement that there is a need for financial assistance to developing nations facing the brunt of the effects of climate change. **As with the rest of the conference, fundamental operational questions were left unanswered such as – who pays who, through what finance vehicle, at what amount over what time period?**
 
 The lack of clarity scares me – until there are answers, progress will be slow and any progress that is made will almost assuredly be at  a smaller scale than needed. It is a messy and complicated topic with no right answers to the questions above - factors that drew me to this topic.  In this particular post, I will attempt to put in place a beginning funding “formula” using public data. Before doing so, I’ll explain why this is so important and conclude by scratching the surface of considerations that extend beyond the flow of financing.
 
 ## Motivation
 The reason this fund is so important is both simple and alarming:
 
-* Cumulative CO2 and its equivalent emissions are incredibly lopsided with the EU, USA, and China representing ~60% of global cumulative emissions. Comparatively, South America and Africa represent just 6% of the total [source](https://ourworldindata.org/contributed-most-global-co2)
-
-![Cumulative CO2](https://colinpaulish.github.io/cp_hugo_nz30/img/cumulative_co2.png "emissions by country")
+* Cumulative CO2 and its equivalent emissions are incredibly lopsided with the EU, USA, and China representing ~60% of global cumulative emissions. Comparatively, South America and Africa represent just 6% of the total [source](https://ourworldindata.org/contributed-most-global-co2).
 
 
-* The effects of global warming are also not distributed equally. Generally, places near the equator are more at risk which tend to skew less developed and more vulnerable
+* The effects of global warming are also not distributed equally. Generally, places near the equator are more at risk which tend to skew less developed and more vulnerable. This is shown at a high-level below where the darker shades represent greater risk and tend be closer to the equator in developing nations.
 ![Cumulative CO2](https://colinpaulish.github.io/cp_hugo_nz30/img/inform_risk.png "risk score")
 
 
@@ -35,13 +33,13 @@ Each of these on their own is powerful. Taken together, it screams unfairness. G
 ## The Analysis
 
 #### Goals
-Put simply, this is a first attempt to put some rigor and systems around funding. This serves a starting point – for the inputs, data sources, designations, formulas, etc. As with my other posts, I have simplified the “equation” while trying to keep the nature of the agreement and the moral side intact. Countries that have contributed and are more financially secure should pay more. Countries that are bearing more of the costs should receive more.
+Put simply, **this is a first attempt to put some rigor and systems around funding**. This serves a starting point – for the inputs, data sources, designations, formulas, etc. As with my other posts, I have simplified the “equation” while trying to keep the nature of the agreement and the moral side intact. Countries that have contributed and are more financially secure should pay more. Countries that are bearing more of the costs should receive more.
 
 As mentioned above, I have also developed an R Shiny tool to play around with some of the inputs that you can find here.
 
 
 #### Who is paying vs who is receiving?
-A common theme, it is not clear who will be funding vs paying. The deal says the fund will assist, “developing countries that are particularly vulnerable to the adverse effects of climate change.” Defining the funders was impressively even more vague mentioning developed countries and “other private and public sources.”
+A common theme, **it is not clear who will be funding vs paying**. The deal says the fund will assist, “developing countries that are particularly vulnerable to the adverse effects of climate change.” Defining the funders was impressively even more vague mentioning developed countries and “other private and public sources.”
 
 The World Economic Situation Prospects (WESP) categorizes countries into three broad categories: developed economies, economies in transition, and developing economies (source).  The UN categorizes the Least Developed Countries, of which there are currently 46 (source). Plenty of other categorizations could similarly be used - such as an economies per capita gross national income (GNI). Put simply there is no “right” way to completely fairly categorize who should fund and who should receive.
 
@@ -57,13 +55,13 @@ The goal of the payment side is to capture contribution, economic ability, and i
 
 #### What determines a country's share of receiving?
 Almost the opposite to payment, the reception of funds intends to encapsulate what countries need the funds the most. This is based on readiness, vulnerability, and their own economic ability to recover.
-* Vulnerability - a composite score of ND  and IMF
-* Readiness / Capacity -
-* Impact projections -
-* Fnancial Muscle - see above, a country's economic ability to mitigate and adapt to climate change
+* **Vulnerability**; metric: *ND:vulnerability*. part of the [ND gain index](https://gain-new.crc.nd.edu/ranking) which summarizes a countries vulnerability to climate change based on 40 indicators from a Wolrd Bank data set. Categories include exposure, sensitivity and adaptive capacity.
+* **Readiness / Capacity**; metric: *ND:readiness*. Assesses a "country's ability to leverage investments and convert them to adaptation actions" arond three core buckets: economic, social, and governance.
+* **Environmental exposure:**; metric: **INFORM Risk score**. This is an IMF-driven indicator that incorporates three dimensions: hazard and exposure, volunerability and lack of coping capacity. The climate components include flood, stormes and drought. More info can be found [here](https://climatedata.imf.org/datasets/7cae02f84ed547fbbd6210d90da19879_0/about)
+* **Financial Muscle**; metric: *GDP per person x GDP* - see above, a country's economic ability to mitigate and adapt to climate change using financial resources.
 
 #### What should the total amount be?
-Unsurprisingly, the range from scholars, developing countries, and developed countries range quite a bit. When considering the amount, there are several factors that should be considered to arrive at the final number. FIrst, the amount should at least consider damages likely driven by climate change now that we know wealthy nations bear the overwhelming responsibility. Then, we should talk about progress both in the forms of adaptation (e.g., new levee) and mitigation (cheap, clean energy). Unfortunately, all three categories are mere estimates which leaves plenty of room for debate. Researchers estimate the economic costs of loss and damage in developing nations to be $290B to $580B and rising (source). A report by the Independent High-Level Expert Group on Climate Finance argues that at least 1 trillion USD is needed per year to support developing countries. A far cry form from the $100B commitment made at recent COPs that have already been delinquent.
+Unsurprisingly, the range from scholars, developing countries, and developed countries range quite a bit. When considering the amount, there are several factors that should be considered to arrive at the final number. FIrst, the amount should at least **consider damages** likely driven by climate change now that we know wealthy nations bear the overwhelming responsibility. Then, we should talk about **progress** both in the forms of adaptation (e.g., new levee) and mitigation (cheap, clean energy). Unfortunately, all three categories are mere estimates which leaves plenty of room for debate. Researchers estimate the economic costs of loss and damage in developing nations to be $290B to $580B and rising (source). A report by the Independent High-Level Expert Group on Climate Finance argues that **at least 1 trillion USD** is needed per year to support developing countries. A far cry form from the $100B commitment made at recent COPs that have already been delinquent.
 
 For the tool, the total amount will start at  $500B - an amount significantly higher than previous commitments but likely still (at least) half of what is needed. This amount is adjustable by the user.
 
