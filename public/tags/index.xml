@@ -6,67 +6,85 @@
     <description>Recent content in Tags on Colin Paulish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 18 Aug 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://colinpaulish.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Apr 2024 02:01:58 +0530</lastBuildDate><atom:link href="https://colinpaulish.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>analytics</title>
-      <link>https://colinpaulish.com/tags/analytics/</link>
-      <pubDate>Fri, 18 Aug 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://colinpaulish.com/tags/analytics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>economics</title>
-      <link>https://colinpaulish.com/tags/economics/</link>
-      <pubDate>Fri, 18 Aug 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://colinpaulish.com/tags/economics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>equity</title>
+      <title>Equity</title>
       <link>https://colinpaulish.com/tags/equity/</link>
-      <pubDate>Fri, 18 Aug 2023 02:01:58 +0530</pubDate>
+      <pubDate>Thu, 18 Apr 2024 02:01:58 +0530</pubDate>
       
       <guid>https://colinpaulish.com/tags/equity/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>jobs</title>
-      <link>https://colinpaulish.com/tags/jobs/</link>
-      <pubDate>Tue, 25 Jul 2023 02:01:58 +0530</pubDate>
+      <title>R</title>
+      <link>https://colinpaulish.com/tags/r/</link>
+      <pubDate>Thu, 18 Apr 2024 02:01:58 +0530</pubDate>
       
-      <guid>https://colinpaulish.com/tags/jobs/</guid>
+      <guid>https://colinpaulish.com/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>data</title>
-      <link>https://colinpaulish.com/tags/data/</link>
-      <pubDate>Tue, 20 Jun 2023 02:01:58 +0530</pubDate>
+      <title>RShiny</title>
+      <link>https://colinpaulish.com/tags/rshiny/</link>
+      <pubDate>Thu, 18 Apr 2024 02:01:58 +0530</pubDate>
       
-      <guid>https://colinpaulish.com/tags/data/</guid>
+      <guid>https://colinpaulish.com/tags/rshiny/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>local</title>
-      <link>https://colinpaulish.com/tags/local/</link>
+      <title>Energy</title>
+      <link>https://colinpaulish.com/tags/energy/</link>
       <pubDate>Tue, 20 Jun 2023 02:01:58 +0530</pubDate>
       
-      <guid>https://colinpaulish.com/tags/local/</guid>
+      <guid>https://colinpaulish.com/tags/energy/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>visualization</title>
-      <link>https://colinpaulish.com/tags/visualization/</link>
+      <title>Solar</title>
+      <link>https://colinpaulish.com/tags/solar/</link>
       <pubDate>Tue, 20 Jun 2023 02:01:58 +0530</pubDate>
       
-      <guid>https://colinpaulish.com/tags/visualization/</guid>
+      <guid>https://colinpaulish.com/tags/solar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tableau</title>
+      <link>https://colinpaulish.com/tags/tableau/</link>
+      <pubDate>Tue, 20 Jun 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://colinpaulish.com/tags/tableau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>APIs</title>
+      <link>https://colinpaulish.com/tags/apis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://colinpaulish.com/tags/apis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://colinpaulish.com/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://colinpaulish.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workforce Planning</title>
+      <link>https://colinpaulish.com/tags/workforce-planning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://colinpaulish.com/tags/workforce-planning/</guid>
       <description></description>
     </item>
     

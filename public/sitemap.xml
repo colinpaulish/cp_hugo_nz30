@@ -4,57 +4,42 @@
   
   <url>
     <loc>https://colinpaulish.com/</loc>
-    <lastmod>2023-08-18T02:01:58+05:30</lastmod>
+    <lastmod>2024-04-18T02:01:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://colinpaulish.com/tags/analytics/</loc>
-    <lastmod>2023-08-18T02:01:58+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://colinpaulish.com/blog/</loc>
-    <lastmod>2023-08-18T02:01:58+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://colinpaulish.com/tags/economics/</loc>
-    <lastmod>2023-08-18T02:01:58+05:30</lastmod>
+    <lastmod>2024-04-18T02:01:58+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://colinpaulish.com/tags/equity/</loc>
-    <lastmod>2023-08-18T02:01:58+05:30</lastmod>
+    <lastmod>2024-04-18T02:01:58+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://colinpaulish.com/blog/loss_and_damage/</loc>
-    <lastmod>2023-08-18T02:01:58+05:30</lastmod>
+    <lastmod>2024-04-18T02:01:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://colinpaulish.com/tags/r/</loc>
+    <lastmod>2024-04-18T02:01:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://colinpaulish.com/tags/rshiny/</loc>
+    <lastmod>2024-04-18T02:01:58+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://colinpaulish.com/tags/</loc>
-    <lastmod>2023-08-18T02:01:58+05:30</lastmod>
+    <lastmod>2024-04-18T02:01:58+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://colinpaulish.com/tags/jobs/</loc>
-    <lastmod>2023-07-25T02:01:58+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://colinpaulish.com/blog/jobs/</loc>
-    <lastmod>2023-07-25T02:01:58+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://colinpaulish.com/tags/data/</loc>
-    <lastmod>2023-06-20T02:01:58+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://colinpaulish.com/tags/local/</loc>
+    <loc>https://colinpaulish.com/tags/energy/</loc>
     <lastmod>2023-06-20T02:01:58+05:30</lastmod>
   </url>
   
@@ -64,12 +49,33 @@
   </url>
   
   <url>
-    <loc>https://colinpaulish.com/tags/visualization/</loc>
+    <loc>https://colinpaulish.com/tags/solar/</loc>
     <lastmod>2023-06-20T02:01:58+05:30</lastmod>
   </url>
   
   <url>
+    <loc>https://colinpaulish.com/tags/tableau/</loc>
+    <lastmod>2023-06-20T02:01:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://colinpaulish.com/tags/apis/</loc>
+  </url>
+  
+  <url>
     <loc>https://colinpaulish.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://colinpaulish.com/tags/python/</loc>
+  </url>
+  
+  <url>
+    <loc>https://colinpaulish.com/blog/jobs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://colinpaulish.com/tags/workforce-planning/</loc>
   </url>
   
 </urlset>

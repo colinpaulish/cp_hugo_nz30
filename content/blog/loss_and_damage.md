@@ -1,13 +1,17 @@
 ---
 title: "Loss & Damage Fund"
-date: 2023-08-18T02:01:58+05:30
+date: 2024-04-18T02:01:58+05:30
 description: "--"
 
 
-tags: [analytics, economics, equity]
+tags: [R, RShiny, Equity]
 ---
 
 ![Future Energy](https://colinpaulish.github.io/cp_hugo_nz30/img/loss_and_damage.png "negotiating for equity")
+
+## The [WIP] Loss and Damage Tool
+Check out what I built to add some data to this conceptually fascinating topic:
+[source](https://colinpaulish.shinyapps.io/loss_and_damages/)
 
 
 ## Overview
@@ -30,7 +34,7 @@ Each of these on their own is powerful. Taken together, it screams unfairness. G
 
 
 
-## The Analysis
+## The Methodolodgy
 
 #### Goals
 Put simply, **this is a first attempt to put some rigor and systems around funding**. This serves a starting point – for the inputs, data sources, designations, formulas, etc. As with my other posts, I have simplified the “equation” while trying to keep the nature of the agreement and the moral side intact. Countries that have contributed and are more financially secure should pay more. Countries that are bearing more of the costs should receive more.
@@ -66,8 +70,20 @@ Unsurprisingly, the range from scholars, developing countries, and developed cou
 For the tool, the total amount will start at  $500B - an amount significantly higher than previous commitments but likely still (at least) half of what is needed. This amount is adjustable by the user.
 
 ## The Analysis
-[empty right now]
+#### Components for the below analysis
+Part of the fun of a dynamic tool is you can create infinite combinations and understand how the different weights impact funding. 
 
+For this analysis, I've considered the following:
+* **Donate** - GDP: 40%; Historical Emissions: 50%; Renewable Share of Energy Generation: 10%
+* **Receive** - inverse of GDP: 50%; Vulnerability (defined as readiness, environmental exposure and general vulnerability): 50%
+
+A few takeaways::
+* the "contributing" countries is more top heavy with the top 10 countries representing more than 50% of all funds. The US and China alone account for 33%.
+* there is a negative relationship between how vulnerable a country is and their readiness - more evidence and motivation to start funding **today**
+
+#### Overview of net contributions
+
+#### What else stands out?
 ## Conclusion
 Going through this thought and data exercise exposed the complexity of the loss and damages fund. It is a problem ripe with sticky definitions, future unknowns, and a myriad of political & financial (dis)incentives all lending itself to debate rather than commitment. Likely, with many climate endeavors, the initial wave of commitments will be underwhelming. A “better than nothing” attitude will almost assuredly be needed in the short-term until a more robust program is established.
 

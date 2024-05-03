@@ -5,7 +5,7 @@ description: "It doesn't take much poking around to find the lofty goal set by S
 "
 
 
-tags: [data, visualization, local]
+tags: [R, Tableau, Solar, Energy]
 ---
 
 ![Futuristic City](https://colinpaulish.github.io/cp_hugo_nz30/img/renewable_city_small.png "futuristic city")

@@ -1,10 +1,10 @@
 ---
 title: "The Energy Transition and Jobs"
-date: 2023-07-25T02:01:58+05:30
+date: 2023-011-25T02:01:58+05:30
 description: "--"
 
 
-tags: [analytics, economics, jobs]
+tags: [Python, Tableau, APIs, Workforce Planning]
 ---
 
 ![Future Energy](https://colinpaulish.github.io/cp_hugo_nz30/img/energy_together.png "worker at oil rig")

@@ -60,14 +60,14 @@
     <h3 class="mt-3"><b><a href="https://colinpaulish.com/blog/loss_and_damage/">Loss &amp; Damage Fund</a></b></h3>
     <div class="blog-title my-4">
       <h6>
-        August 18, 2023
+        April 18, 2024
         &nbsp;&nbsp;
         
-          <span class="badge bg-success">analytics</span>
+          <span class="badge bg-success">R</span>
         
-          <span class="badge bg-success">economics</span>
+          <span class="badge bg-success">RShiny</span>
         
-          <span class="badge bg-success">equity</span>
+          <span class="badge bg-success">Equity</span>
         
       </h6>
     </div>
@@ -75,6 +75,9 @@
       <div class="panel-body">
         <div class="blogpost">
           <p><img src="https://colinpaulish.github.io/cp_hugo_nz30/img/loss_and_damage.png" alt="Future Energy" title="negotiating for equity"></p>
+<h2 id="the-wip-loss-and-damage-tool">The [WIP] Loss and Damage Tool</h2>
+<p>Check out what I built to add some data to this conceptually fascinating topic:
+<a href="https://colinpaulish.shinyapps.io/loss_and_damages/">source</a></p>
 <h2 id="overview">Overview</h2>
 <p>General consensus coming out of COP27 was disappointment. Commitments once again exceeded action and many climate enthusiasts left with more questions than answers. An exciting development that did come out of COP27 was the agreement of a ‘Loss and Damage’ fund. In principle, this agreement formalizes mostly rich countries' acknowledgement that there is a need for financial assistance to developing nations facing the brunt of the effects of climate change. <strong>As with the rest of the conference, fundamental operational questions were left unanswered such as – who pays who, through what finance vehicle, at what amount over what time period?</strong></p>
 <p>The lack of clarity scares me – until there are answers, progress will be slow and any progress that is made will almost assuredly be at  a smaller scale than needed. It is a messy and complicated topic with no right answers to the questions above - factors that drew me to this topic.  In this particular post, I will attempt to put in place a beginning funding “formula” using public data. Before doing so, I’ll explain why this is so important and conclude by scratching the surface of considerations that extend beyond the flow of financing.</p>
@@ -90,7 +93,7 @@
 </li>
 </ul>
 <p>Each of these on their own is powerful. Taken together, it screams unfairness. Generally, the countries and communities who have done the least to raise our global temperature (and dirty our air) are bearing the biggest costs.  The numbers are hard to contextualize. Just before COP27, a group of 55 developing countries added up their climate linked losses and valued it at $525 or 20% of their collective GDP <a href="https://climatedata.imf.org/datasets/7cae02f84ed547fbbd6210d90da19879_0/about">source</a>. Unfortunately, we are entering a new “normal” – one that will have more catastrophic events at increasing scale. Until we are carbon negative, tomorrow will have more carbon than today.</p>
-<h2 id="the-analysis">The Analysis</h2>
+<h2 id="the-methodolodgy">The Methodolodgy</h2>
 <h4 id="goals">Goals</h4>
 <p>Put simply, <strong>this is a first attempt to put some rigor and systems around funding</strong>. This serves a starting point – for the inputs, data sources, designations, formulas, etc. As with my other posts, I have simplified the “equation” while trying to keep the nature of the agreement and the moral side intact. Countries that have contributed and are more financially secure should pay more. Countries that are bearing more of the costs should receive more.</p>
 <p>As mentioned above, I have also developed an R Shiny tool to play around with some of the inputs that you can find here.</p>
@@ -121,8 +124,21 @@
 <h4 id="what-should-the-total-amount-be">What should the total amount be?</h4>
 <p>Unsurprisingly, the range from scholars, developing countries, and developed countries range quite a bit. When considering the amount, there are several factors that should be considered to arrive at the final number. FIrst, the amount should at least <strong>consider damages</strong> likely driven by climate change now that we know wealthy nations bear the overwhelming responsibility. Then, we should talk about <strong>progress</strong> both in the forms of adaptation (e.g., new levee) and mitigation (cheap, clean energy). Unfortunately, all three categories are mere estimates which leaves plenty of room for debate. Researchers estimate the economic costs of loss and damage in developing nations to be $290B to $580B and rising (source). A report by the Independent High-Level Expert Group on Climate Finance argues that <strong>at least 1 trillion USD</strong> is needed per year to support developing countries. A far cry form from the $100B commitment made at recent COPs that have already been delinquent.</p>
 <p>For the tool, the total amount will start at  $500B - an amount significantly higher than previous commitments but likely still (at least) half of what is needed. This amount is adjustable by the user.</p>
-<h2 id="the-analysis-1">The Analysis</h2>
-<p>[empty right now]</p>
+<h2 id="the-analysis">The Analysis</h2>
+<h4 id="components-for-the-below-analysis">Components for the below analysis</h4>
+<p>Part of the fun of a dynamic tool is you can create infinite combinations and understand how the different weights impact funding.</p>
+<p>For this analysis, I&rsquo;ve considered the following:</p>
+<ul>
+<li><strong>Donate</strong> - GDP: 40%; Historical Emissions: 50%; Renewable Share of Energy Generation: 10%</li>
+<li><strong>Receive</strong> - inverse of GDP: 50%; Vulnerability (defined as readiness, environmental exposure and general vulnerability): 50%</li>
+</ul>
+<p>A few takeaways::</p>
+<ul>
+<li>the &ldquo;contributing&rdquo; countries is more top heavy with the top 10 countries representing more than 50% of all funds. The US and China alone account for 33%.</li>
+<li>there is a negative relationship between how vulnerable a country is and their readiness - more evidence and motivation to start funding <strong>today</strong></li>
+</ul>
+<h4 id="overview-of-net-contributions">Overview of net contributions</h4>
+<h4 id="what-else-stands-out">What else stands out?</h4>
 <h2 id="conclusion">Conclusion</h2>
 <p>Going through this thought and data exercise exposed the complexity of the loss and damages fund. It is a problem ripe with sticky definitions, future unknowns, and a myriad of political &amp; financial (dis)incentives all lending itself to debate rather than commitment. Likely, with many climate endeavors, the initial wave of commitments will be underwhelming. A “better than nothing” attitude will almost assuredly be needed in the short-term until a more robust program is established.</p>
 <p>Let’s assume a fund and contribution amount is established with respective country contribution and allocation amounts set. What next - what should considerations be for operationalizing it? Sources Beyond the funding, how will future decisions be made? How will plans get approved and countries then held accountable for their commitments? Who will monitor the allocation funds and what should penalties look like?</p>
@@ -162,12 +178,12 @@ Measure impact, share successes (and failures)</p>
                 <div class="row">
                   <div class="col-4">
                     <h6 style="text-align: right">
-                      July 25, 2023
+                      June 20, 2023
                     </h6>
                   </div>
                   <div class="col-8">
                     <h6 style="text-align: left">
-                      <b><a href="/blog/jobs/">The Energy Transition and Jobs</a></b>
+                      <b><a href="/blog/sd_renewables/">Local Context: San Diego and Solar</a></b>
                     </h6>
                   </div>
                 </div>
