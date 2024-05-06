@@ -1,6 +1,6 @@
 ---
-title: "Impact of Energy Transition on Jobs"
-date: 2023-011-25T02:01:58+05:30
+title: "The Energy Transition and Jobs"
+date: 2024-02-12T02:01:58+05:30
 description: "--"
 
 

@@ -11,7 +11,7 @@ tags: [R, RShiny, Equity]
 
 ## The [WIP] Loss and Damage Tool
 Check out what I built to add some data to this conceptually fascinating topic:
-[source](https://colinpaulish.shinyapps.io/loss_and_damages/)
+[R Shiny Loss & Damage Tool](https://colinpaulish.shinyapps.io/loss_and_damages/)
 
 
 ## Overview
