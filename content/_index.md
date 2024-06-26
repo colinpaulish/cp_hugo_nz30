@@ -4,7 +4,7 @@ I love to combine **critical thinking** with **data science** to build powerful 
 
 I am particularly interested in the most critical and complex problem modern society has faced - **climate change**. I hope to be a small (and positive) force of change in this arena to curb emissions while improving the quality of life for all. We can do this.
 
-Check out my (growing) list of blogs where I discuss a climate + data related topic.
+Check out my (growing) list of blogs where I utilize data science to explore an integral climate topic.
 
 Please reach out if you want to chat, collaborate, or anything else!
 

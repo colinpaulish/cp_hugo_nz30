@@ -5,11 +5,21 @@
     <link>https://colinpaulish.com/tags/python/</link>
     <description>Recent content in Python on Colin Paulish</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://colinpaulish.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <lastBuildDate>Wed, 12 Jun 2024 02:01:58 +0530</lastBuildDate><atom:link href="https://colinpaulish.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Charging Optimization</title>
+      <link>https://colinpaulish.com/blog/charger_optimization/</link>
+      <pubDate>Wed, 12 Jun 2024 02:01:58 +0530</pubDate>
+      
+      <guid>https://colinpaulish.com/blog/charger_optimization/</guid>
+      <description>San Diego Charging Optimization [in progress] Setting the scene The concept is simple. When low on fuel, instead of pulling up to a station and powering your car with gas, electricity flows instead. The long-term strategy is also simple - in a green future, these electric vehicle (EV) charging ports will be everywhere supplying a high-voltage supply of electricity from a local green energy source. Transportation decarbonized with a fleet of easier to assemble, cheaper to buy, and quieter to drive vehicles zooming across our motorways.</description>
+    </item>
+    
     <item>
       <title>The Energy Transition and Jobs</title>
       <link>https://colinpaulish.com/blog/jobs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Feb 2024 02:01:58 +0530</pubDate>
       
       <guid>https://colinpaulish.com/blog/jobs/</guid>
       <description>Opening It’s hard to fault policymakers and local leaders in fossil-fuel heavy regions for their pushback towards green legislation. Shifts in status quo are scary, particularly when the writing on the wall is in sharpie - renewable jobs are coming, and they will negatively impact fossil fuel employment. Industrial shifts can and have brought huge pain to governments, local economies, families, and people. From 1950 to 2000, the “Rust Belt’s” share of US manufacturing employment fell from one-half to one-third with similar magnitude drops when taking a step back calculating aggregate-level employment.</description>

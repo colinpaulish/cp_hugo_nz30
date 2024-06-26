@@ -84,6 +84,8 @@ A few takeaways::
 #### Overview of net contributions
 
 #### What else stands out?
+
+
 ## Conclusion
 Going through this thought and data exercise exposed the complexity of the loss and damages fund. It is a problem ripe with sticky definitions, future unknowns, and a myriad of political & financial (dis)incentives all lending itself to debate rather than commitment. Likely, with many climate endeavors, the initial wave of commitments will be underwhelming. A “better than nothing” attitude will almost assuredly be needed in the short-term until a more robust program is established.
 

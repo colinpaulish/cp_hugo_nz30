@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geospatial Analytics on Colin Paulish</title>
+    <link>https://colinpaulish.com/tags/geospatial-analytics/</link>
+    <description>Recent content in Geospatial Analytics on Colin Paulish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 12 Jun 2024 02:01:58 +0530</lastBuildDate><atom:link href="https://colinpaulish.com/tags/geospatial-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Charging Optimization</title>
+      <link>https://colinpaulish.com/blog/charger_optimization/</link>
+      <pubDate>Wed, 12 Jun 2024 02:01:58 +0530</pubDate>
+      
+      <guid>https://colinpaulish.com/blog/charger_optimization/</guid>
+      <description>San Diego Charging Optimization [in progress] Setting the scene The concept is simple. When low on fuel, instead of pulling up to a station and powering your car with gas, electricity flows instead. The long-term strategy is also simple - in a green future, these electric vehicle (EV) charging ports will be everywhere supplying a high-voltage supply of electricity from a local green energy source. Transportation decarbonized with a fleet of easier to assemble, cheaper to buy, and quieter to drive vehicles zooming across our motorways.</description>
+    </item>
+    
+  </channel>
+</rss>

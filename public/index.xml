@@ -6,15 +6,33 @@
     <description>Recent content on Colin Paulish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 18 Apr 2024 02:01:58 +0530</lastBuildDate><atom:link href="https://colinpaulish.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jun 2024 02:01:58 +0530</lastBuildDate><atom:link href="https://colinpaulish.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Charging Optimization</title>
+      <link>https://colinpaulish.com/blog/charger_optimization/</link>
+      <pubDate>Wed, 12 Jun 2024 02:01:58 +0530</pubDate>
+      
+      <guid>https://colinpaulish.com/blog/charger_optimization/</guid>
+      <description>San Diego Charging Optimization [in progress] Setting the scene The concept is simple. When low on fuel, instead of pulling up to a station and powering your car with gas, electricity flows instead. The long-term strategy is also simple - in a green future, these electric vehicle (EV) charging ports will be everywhere supplying a high-voltage supply of electricity from a local green energy source. Transportation decarbonized with a fleet of easier to assemble, cheaper to buy, and quieter to drive vehicles zooming across our motorways.</description>
+    </item>
+    
     <item>
       <title>Loss &amp; Damage Fund</title>
       <link>https://colinpaulish.com/blog/loss_and_damage/</link>
       <pubDate>Thu, 18 Apr 2024 02:01:58 +0530</pubDate>
       
       <guid>https://colinpaulish.com/blog/loss_and_damage/</guid>
-      <description>The [WIP] Loss and Damage Tool Check out what I built to add some data to this conceptually fascinating topic: source
+      <description>The [WIP] Loss and Damage Tool Check out what I built to add some data to this conceptually fascinating topic: R Shiny Loss &amp;amp; Damage Tool
 Overview General consensus coming out of COP27 was disappointment. Commitments once again exceeded action and many climate enthusiasts left with more questions than answers. An exciting development that did come out of COP27 was the agreement of a ‘Loss and Damage’ fund. In principle, this agreement formalizes mostly rich countries&#39; acknowledgement that there is a need for financial assistance to developing nations facing the brunt of the effects of climate change.</description>
+    </item>
+    
+    <item>
+      <title>The Energy Transition and Jobs</title>
+      <link>https://colinpaulish.com/blog/jobs/</link>
+      <pubDate>Mon, 12 Feb 2024 02:01:58 +0530</pubDate>
+      
+      <guid>https://colinpaulish.com/blog/jobs/</guid>
+      <description>Opening It’s hard to fault policymakers and local leaders in fossil-fuel heavy regions for their pushback towards green legislation. Shifts in status quo are scary, particularly when the writing on the wall is in sharpie - renewable jobs are coming, and they will negatively impact fossil fuel employment. Industrial shifts can and have brought huge pain to governments, local economies, families, and people. From 1950 to 2000, the “Rust Belt’s” share of US manufacturing employment fell from one-half to one-third with similar magnitude drops when taking a step back calculating aggregate-level employment.</description>
     </item>
     
     <item>
@@ -24,15 +42,6 @@ Overview General consensus coming out of COP27 was disappointment. Commitments o
       
       <guid>https://colinpaulish.com/blog/sd_renewables/</guid>
       <description>Opening Cities will be crucial in leading innovation, policy change, and enacting ambitious legislation set force by policies such as the Inflation Reduction Act. In this article, I examine how San Diego has performed in adding renewable energy to the grid via solar highlighting pertinent trends and differences. Please play with this Tableau dashboard I put together to power this analysis drawing upon San Diego solar data and ACS community information.</description>
-    </item>
-    
-    <item>
-      <title>The Energy Transition and Jobs</title>
-      <link>https://colinpaulish.com/blog/jobs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://colinpaulish.com/blog/jobs/</guid>
-      <description>Opening It’s hard to fault policymakers and local leaders in fossil-fuel heavy regions for their pushback towards green legislation. Shifts in status quo are scary, particularly when the writing on the wall is in sharpie - renewable jobs are coming, and they will negatively impact fossil fuel employment. Industrial shifts can and have brought huge pain to governments, local economies, families, and people. From 1950 to 2000, the “Rust Belt’s” share of US manufacturing employment fell from one-half to one-third with similar magnitude drops when taking a step back calculating aggregate-level employment.</description>
     </item>
     
   </channel>
